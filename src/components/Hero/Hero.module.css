@@ -1,0 +1,45 @@
+.hero {
+  background: #000000;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+.title {
+  font-family: "Cabrito Contrast", Arial, sans-serif;
+  font-size: 6.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+}
+.title span {
+  display: inline-block;
+}
+.line {
+  display: block;
+}
+.letter {
+  display: inline-block;
+}
+.taglines {
+  margin-top: 10px;
+  text-align: center;
+}
+.taglines p {
+  font-family: "Cabrito Contrast", Arial, sans-serif;
+  margin: 6px 0;
+  color: #e5e7eb;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 28px;
+}
+.dozer {
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  width: 240px;
+}

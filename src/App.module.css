@@ -1,0 +1,11 @@
+.app {
+  font-family: "Cabrito Contrast", Arial, sans-serif;
+  color: #ffffff;
+  background: #000000;
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 80px 20px;
+  min-height: 100vh;
+}

@@ -1,0 +1,18 @@
+.contact {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+.contact h2 {
+  color: #ecd06f;
+  margin-bottom: 18px;
+  font-size: 2.25rem;
+}
+.info {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  line-height: 1.9;
+}
+.info strong {
+  color: #ecd06f;
+}
