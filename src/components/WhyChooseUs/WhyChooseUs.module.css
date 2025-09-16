@@ -1,6 +1,6 @@
 .whyChooseUs {
   padding: 100px 0;
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  background: #000000;
   position: relative;
   overflow: hidden;
 }
@@ -29,23 +29,8 @@
   font-weight: 700;
   text-align: center;
   margin-bottom: 80px;
-  background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4);
-  background-size: 400% 400%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  animation: gradientShift 4s ease-in-out infinite;
-  text-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
-}
-
-@keyframes gradientShift {
-  0%,
-  100% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
+  color: #ff6e00;
+  text-shadow: 0 0 30px rgba(255, 110, 0, 0.5);
 }
 
 .cards {
@@ -56,9 +41,9 @@
 }
 
 .card {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 110, 0, 0.05);
   backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 110, 0, 0.2);
   border-radius: 20px;
   padding: 40px 30px;
   text-align: center;
@@ -78,7 +63,7 @@
   background: linear-gradient(
     90deg,
     transparent,
-    rgba(255, 255, 255, 0.1),
+    rgba(255, 110, 0, 0.1),
     transparent
   );
   transition: left 0.6s ease;
@@ -89,10 +74,10 @@
 }
 
 .card:hover {
-  background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(255, 255, 255, 0.1),
-    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  background: rgba(255, 110, 0, 0.08);
+  border-color: rgba(255, 110, 0, 0.4);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 110, 0, 0.2),
+    inset 0 1px 0 rgba(255, 110, 0, 0.3);
   transform: translateY(-5px);
 }
 
@@ -101,15 +86,15 @@
   margin-bottom: 25px;
   display: block;
   transition: all 0.4s ease;
-  filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.3));
+  filter: drop-shadow(0 0 20px rgba(255, 110, 0, 0.5));
 }
 
 .card h3 {
   font-size: 1.8rem;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #ffffff;
-  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  color: #ff6e00;
+  text-shadow: 0 2px 10px rgba(255, 110, 0, 0.3);
 }
 
 .card p {
@@ -165,4 +150,3 @@
     padding: 25px 15px;
   }
 }
-

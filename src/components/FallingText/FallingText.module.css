@@ -1,0 +1,31 @@
+.fallingTextContainer {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  background: transparent;
+  border-radius: 8px;
+}
+
+.highlighted {
+  color: #ff6b6b !important;
+  font-weight: bold !important;
+  text-shadow: 0 0 10px rgba(255, 107, 107, 0.3);
+}
+
+.fallingTextContainer canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.fallingTextContainer > div {
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+  user-select: none;
+  font-family: inherit;
+  line-height: 1;
+  white-space: nowrap;
+}

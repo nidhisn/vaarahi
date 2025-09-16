@@ -43,3 +43,14 @@
   left: 0;
   width: 240px;
 }
+
+.fallingTextSection {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 400px;
+  z-index: 10;
+  pointer-events: auto;
+}
