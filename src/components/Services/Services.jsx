@@ -28,21 +28,6 @@ const Services = () => {
           </li>
         </ul>
       </div>
-      <div>
-        <h3>Why Choose Us?</h3>
-        <ul>
-          <li>
-            <strong>Proven Track Record:</strong> Trusted by top leaders in the
-            infrastructure industry. Consistent delivery of high-quality
-            productivity and services.
-          </li>
-          <li>
-            <strong>Experienced Leadership:</strong> Founded by a seasoned
-            expert with 20 years of industry experience and a strong family
-            background in civil engineering.
-          </li>
-        </ul>
-      </div>
     </div>
   );
 };

@@ -8,6 +8,7 @@ import Fleet from "./components/Fleet/Fleet";
 import Clients from "./components/Clients/Clients";
 import Projects from "./components/Projects/Projects";
 import Leadership from "./components/Leadership/Leadership";
+import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs";
 import Contact from "./components/Contact/Contact";
 
 function App() {
@@ -32,7 +33,9 @@ function App() {
       <section id="projects">
         <Projects />
       </section>
-
+      <section id="why-choose-us">
+        <WhyChooseUs />
+      </section>
       <section id="contact">
         <Contact />
       </section>
